@@ -93,8 +93,18 @@ El dataset consta de 30,000 observaciones, con 23 variables predictoras y una va
 - **`default.payment.next.month`** : Indicador binario (0 = No incumplimiento, 1 = Incumplimiento de pago).
 
 
-## Modelos de Clasificación Utilizados
+##  Modelos de Clasificación Utilizados
 
+Se evaluaron y compararon los siguientes algoritmos de clasificación para predecir el incumplimiento de pago:
+
+- **Regresión Logística** (Ridge y Lasso)
+- **SVM** (Support Vector Machine)
+- **Árbol de Decisión** (Decision Tree)
+- **Random Forest**
+- **XGBoost**
+- **K-Nearest Neighbors** (KNN)
+
+📌 Estos modelos fueron seleccionados por su eficacia en problemas de clasificación binaria y su capacidad para manejar datos financieros con características tanto categóricas como numéricas.
 
 ## Metodología
 
