@@ -28,6 +28,8 @@ Este conjunto de datos contiene información sobre pagos incumplidos, factores d
 
 **Variables del dataset**
 
+El dataset consta de 30,000 observaciones, con 23 variables predictoras y una variable objetivo (default.payment.next.month).
+
 | **Columna**                     | **Descripción** |
 |---------------------------------|---------------|
 | **ID**                          | ID of each client. |
@@ -59,31 +61,36 @@ Este conjunto de datos contiene información sobre pagos incumplidos, factores d
 - 📊 **Variables predictoras:**
   
 1️⃣ **Factores Demográficos:**
-SEX → Género (1=Masculino, 2=Femenino).
-EDUCATION → Nivel educativo (1=Graduado, 2=Universidad, etc.).
-MARRIAGE → Estado civil (1=Casado, 2=Soltero, 3=Otros).
-AGE → Edad en años.
+
+- (SEX) → Género (1=Masculino, 2=Femenino).
+- (EDUCATION) → Nivel educativo (1=Graduado, 2=Universidad, etc.).
+- (MARRIAGE) → Estado civil (1=Casado, 2=Soltero, 3=Otros).
+- (AGE) → Edad en años.
+  
 2️⃣ **Historial de Crédito y Estado de Pago:**
-LIMIT_BAL → Monto del crédito otorgado (en NT dólares).
-PAY_0 → Estado de pago en septiembre 2005 (-1=Sin retraso, 1=Retraso de 1 mes, etc.).
-PAY_2 → Estado de pago en agosto 2005.
-PAY_3 → Estado de pago en julio 2005.
-PAY_4 → Estado de pago en junio 2005.
-PAY_5 → Estado de pago en mayo 2005.
-PAY_6 → Estado de pago en abril 2005.
+
+- (LIMIT_BAL) → Monto del crédito otorgado (en NT dólares).
+- (PAY_0) → Estado de pago en septiembre 2005 (-1=Sin retraso, 1=Retraso de 1 mes, etc.).
+- (PAY_2) → Estado de pago en agosto 2005.
+- (PAY_3) → Estado de pago en julio 2005.
+- (PAY_4) → Estado de pago en junio 2005.
+- (PAY_5) → Estado de pago en mayo 2005.
+- (PAY_6) → Estado de pago en abril 2005.
+  
 3️⃣ **Montos Facturados y Pagos Realizados:**
-BILL_AMT1 → Monto de la factura en septiembre 2005.
-BILL_AMT2 → Monto de la factura en agosto 2005.
-BILL_AMT3 → Monto de la factura en julio 2005.
-BILL_AMT4 → Monto de la factura en junio 2005.
-BILL_AMT5 → Monto de la factura en mayo 2005.
-BILL_AMT6 → Monto de la factura en abril 2005.
-PAY_AMT1 → Monto del pago realizado en septiembre 2005.
-PAY_AMT2 → Monto del pago realizado en agosto 2005.
-PAY_AMT3 → Monto del pago realizado en julio 2005.
-PAY_AMT4 → Monto del pago realizado en junio 2005.
-PAY_AMT5 → Monto del pago realizado en mayo 2005.
-PAY_AMT6 → Monto del pago realizado en abril 2005.
+
+- (BILL_AMT1) → Monto de la factura en septiembre 2005.
+- (BILL_AMT2) → Monto de la factura en agosto 2005.
+- (BILL_AMT3) → Monto de la factura en julio 2005.
+- (BILL_AMT4) → Monto de la factura en junio 2005.
+- (BILL_AMT5) → Monto de la factura en mayo 2005.
+- (BILL_AMT6) → Monto de la factura en abril 2005.
+- (PAY_AMT1) → Monto del pago realizado en septiembre 2005.
+- (PAY_AMT2) → Monto del pago realizado en agosto 2005.
+- (PAY_AMT3) → Monto del pago realizado en julio 2005.
+- (PAY_AMT4) → Monto del pago realizado en junio 2005.
+- (PAY_AMT5) → Monto del pago realizado en mayo 2005.
+- (PAY_AMT6) → Monto del pago realizado en abril 2005.
 
 
 
